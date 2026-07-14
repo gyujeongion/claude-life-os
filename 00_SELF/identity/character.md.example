@@ -1,0 +1,47 @@
+[OWNER] — this file records who the owner is. Only the owner confirms its contents; the
+agent may draft, but flags anything unconfirmed.
+
+# character.md — who I am
+
+> Fill this in your own words. Five honest lines beat a perfect essay. The agent reads
+> this before any taste or judgment call. Delete the prompts as you replace them.
+>
+> 당신의 언어로 채우세요. 솔직한 다섯 줄이 완벽한 에세이보다 낫습니다. 에이전트는 취향·
+> 판단이 필요할 때 이 파일을 먼저 읽습니다. 채우면서 안내 문구는 지우세요.
+
+## Basics
+
+| Field | Value |
+|---|---|
+| Name | {{your name}} |
+| What I do | {{one line}} |
+| Timezone | {{TIMEZONE}} |
+| Languages | {{languages}} |
+
+## How I think
+
+{{How do you make decisions? Fast and intuitive, or slow and analytical? Do you trust
+data or gut? What do you optimize for?}}
+
+## What I value
+
+{{The 3–5 things that actually matter to you. Be specific — "honesty" is generic;
+"I'd rather hear a hard truth once than a soft lie twice" is you.}}
+
+## My taste
+
+{{Aesthetic, style, what you're drawn to and what repels you. This is what the agent
+consults when you ask "which one".}}
+
+## How I want the agent to talk to me
+
+{{Blunt or gentle? Short or thorough? Should it push back when it disagrees, or defer?
+What kind of response makes you trust it? What makes you distrust it?}}
+
+## Red lines
+
+{{Things the agent should never do or suggest. Hard boundaries.}}
+
+---
+
+*Keep this to what's true and stable. Fast-changing details go in memory, not here.*

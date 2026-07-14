@@ -1,0 +1,40 @@
+[OWNER] — people the owner has named or confirmed. Do **not** record AI guesses or web
+lookups here. If a new person comes up and isn't in this file, the agent asks "who's
+that?" before assuming.
+
+# people.md — everyone the agent should recognize
+
+> The agent reads this at the start of a conversation and consults it whenever a person
+> comes up. Add people as they become relevant — you don't need to front-load your whole
+> address book.
+>
+> 에이전트가 대화 시작 시 읽고, 인물이 언급될 때마다 참조합니다. 관련 있어질 때 추가하면
+> 됩니다 — 주소록 전체를 미리 넣을 필요 없습니다.
+
+## Agent behavior
+
+| Situation | Action |
+|---|---|
+| Conversation starts | read this file, note who's here |
+| A person is mentioned | search here first → if absent, ask "who's that?" |
+| New person confirmed | add them in the format below |
+| New info on existing person | update their entry |
+| A client / business contact | store in the relevant domain folder, not here |
+
+## Entry format
+
+```md
+## [Name]
+- **relationship**: [how they relate to you, one line]
+- **context**: [where they show up — which project, which part of life]
+- **notes**: [anything the agent should remember]
+```
+
+---
+
+<!-- People accumulate below as they become relevant. -->
+
+## Example Person (delete this)
+- **relationship**: friend / collaborator
+- **context**: shows up in casual planning
+- **notes**: this is a placeholder — replace with real entries

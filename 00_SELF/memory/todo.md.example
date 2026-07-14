@@ -1,0 +1,21 @@
+# todo.md — active to-dos
+
+> The owner's actual action items. Auto-loaded every session (Tier 1) — the agent
+> surfaces items due today/tomorrow at session start and ignores stale ones. Completed
+> items move to an archive.
+>
+> 실제 할 일 목록. 매 세션 자동 로드 — 에이전트는 오늘/내일 기한 항목만 세션 시작 시 알림.
+
+## TODO vs. calendar
+
+| Put here (TODO) | Put on the calendar |
+|---|---|
+| decisions, tasks, things to send, follow-ups — anything requiring **active** action | attendance, appointments — **passive** time-blocks |
+
+The calendar's dates are truth. Don't re-derive or second-guess them here.
+
+---
+
+<!-- Your to-dos below. Format: - [ ] (due YYYY-MM-DD) task -->
+
+- [ ] (due YYYY-MM-DD) example item — delete this

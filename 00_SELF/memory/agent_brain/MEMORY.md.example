@@ -1,0 +1,23 @@
+# MEMORY.md — global memory
+
+> Auto-loaded every session. Stable, always-relevant facts about the owner and their
+> environment. Keep it lean — a screen or two. Anything project-specific belongs in
+> `../projects/`, not here. Never put secrets or keys here.
+>
+> 매 세션 자동 로드. 오너와 환경에 대한 안정적·항상 유효한 사실. 짧게 유지. 프로젝트별
+> 정보는 여기 말고 `../projects/`. 비밀·키 절대 금지.
+
+## Owner core
+- Name: {{OWNER_NAME}}
+- Timezone: {{TIMEZONE}}
+- Primary language: {{PRIMARY_LANGUAGE}}
+- What they do: {{one line}}
+
+## Environment
+- Main machine: {{e.g. laptop OS}}
+- Where this workspace lives: {{path or "this repo"}}
+- Tools the agent may use: {{list, or "ask before using new tools"}}
+
+## Standing facts
+<!-- Stable things the agent should always know. Add as they come up. -->
+- {{example: "always confirm before sending anything to another person"}}

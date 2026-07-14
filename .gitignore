@@ -1,0 +1,83 @@
+# =============================================================================
+#  Your life is private BY DEFAULT.
+# =============================================================================
+# This repo separates the FRAMEWORK (routers, docs, skills — tracked, updatable)
+# from YOUR DATA (identity, people, decisions, memory — ignored, never published).
+#
+# The tracked template ships seed files named `*.example`. On first run,
+# `tools/bootstrap.sh` copies each seed to its live filename — and those live files
+# are ignored here, so your real content is never committed or pushed. Pull framework
+# updates freely (see UPDATE.md); your data files are untouched.
+#
+# Result: you can make your fork public without leaking anything. No manual untracking.
+
+# --- your live personal data (created from *.example seeds) ---
+00_SELF/identity/character.md
+00_SELF/identity/character_ai_mirror.md
+00_SELF/decisions/decisions_log.md
+00_SELF/decisions/feedback_patterns.md
+00_SELF/people/people.md
+00_SELF/memory/shared_memory.md
+00_SELF/memory/todo.md
+00_SELF/memory/SYNC_AXIS.md
+00_SELF/memory/agent_brain/MEMORY.md
+00_SELF/memory/agent_brain/USER.md
+
+# --- your project memory (keep the registry + template, ignore the rest) ---
+00_SELF/memory/projects/*.md
+!00_SELF/memory/projects/INDEX.md
+!00_SELF/memory/projects/_TEMPLATE.md
+
+# --- memory archives + rolled backups ---
+00_SELF/memory/archive/
+00_SELF/memory/*.bak.*
+
+# --- raw captured inputs (the `add` skill preserves these; they're private) ---
+30_KNOWLEDGE/raw_inputs/
+
+# --- personal life + the shared-agent ring (routers stay via the negations below) ---
+50_LIFE/**
+!50_LIFE/CLAUDE.md
+90_SHARED/**
+!90_SHARED/CLAUDE.md
+
+# --- your actual projects/domains (their CLAUDE.md routers stay tracked) ---
+10_WORK/**
+!10_WORK/CLAUDE.md
+!10_WORK/_PROJECT_TEMPLATE/**
+20_DOMAINS/**
+!20_DOMAINS/CLAUDE.md
+!20_DOMAINS/_DOMAIN_TEMPLATE/**
+
+# =============================================================================
+#  Secrets — never commit
+# =============================================================================
+.env
+.env.*
+*.pem
+*.p12
+*.key
+credentials.json
+*_token.json
+*secret*
+*.credentials
+
+# conversation-memory store (if you place it inside the repo)
+.conversation-memory/
+*.db
+*.db-wal
+*.db-shm
+
+# =============================================================================
+#  OS / editor noise
+# =============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+node_modules/
+.cache/

@@ -1,0 +1,25 @@
+[OWNER] — the owner's rejection filters. Maintained so the agent stops re-proposing
+things the owner has already turned down. Applied automatically before every proposal.
+
+# feedback_patterns.md — what I've rejected (and why)
+
+> When you reject a proposal and say why, the agent records the *pattern* here — not just
+> the one instance — and filters it out of all future proposals. Say no once; it sticks.
+>
+> 제안을 거절하고 이유를 말하면, 에이전트가 그 *패턴*을 여기 기록하고 이후 모든 제안에서
+> 걸러냅니다. 한 번 거절하면 유지됩니다.
+
+Entry format:
+```
+## [YYYY-MM-DD] [type of proposal rejected — source]
+Instance: [the specific thing that was rejected]
+Root cause: [why it was wrong — the general principle, not just the surface]
+Rule (never violate): [the filter to apply going forward]
+```
+
+The **root cause** matters more than the instance. "Don't suggest X" is weak; "the owner
+rejects anything that reads as Y" is a filter that generalizes.
+
+---
+
+<!-- Rejection patterns accumulate below. -->

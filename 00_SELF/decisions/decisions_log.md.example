@@ -1,0 +1,29 @@
+[OWNER] — confirmed decisions only. An entry goes here **only** when the owner has
+explicitly accepted it. The agent proposes; the owner confirms; then it's logged.
+
+# decisions_log.md — what I've decided
+
+> This is the agent's memory of your settled choices, so it never re-litigates them.
+> Newest at the top.
+>
+> 확정한 선택의 기록. 에이전트가 이미 끝난 결정을 다시 꺼내지 않도록. 최신이 위.
+
+Entry format:
+```
+### YYYY-MM-DD HH:MM · [what was decided]
+Source: [conversation / meeting / direct statement]
+Decision: [the confirmed choice]
+Tags: [확정 confirmed] / [메모 note] / [충돌 conflict]
+```
+
+If a new decision conflicts with an old one, mark `[충돌]` and cross-reference — don't
+silently overwrite. The owner resolves conflicts, not the agent.
+
+---
+
+<!-- Your confirmed decisions will accumulate below, newest first. -->
+
+### YYYY-MM-DD · (example — delete this)
+Source: direct statement
+Decision: Adopted the Life Agent workspace structure.
+Tags: [확정]

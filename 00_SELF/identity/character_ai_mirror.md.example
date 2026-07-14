@@ -1,0 +1,52 @@
+[AI] — this file is written by the agent, not the owner. It records patterns the agent
+observes. The owner reviews it; confirmed patterns may graduate into `character.md`.
+
+# character_ai_mirror.md — what the agent notices
+
+> The agent logs here on its own. Rules:
+> - only patterns seen **2+ times** (never one-offs)
+> - descriptive, not evaluative — "tends to…", never "is bad at…"
+> - after logging, tell the owner in one line
+> - the more uncomfortable the observation, the more concrete the evidence must be
+>
+> 에이전트가 자율적으로 기록합니다. 2회 이상 반복 패턴만, 판단 언어 금지("~하는 경향이
+> 있다" 형식만), 기록 후 한 줄 알림, 불편한 관찰일수록 구체적 근거 필수.
+
+Entry format:
+```
+### YYYY-MM-DD · [pattern name] [seen Nx]
+Observation: [what happens, descriptively]
+Evidence: [the 2+ concrete instances]
+```
+
+---
+
+## Decision patterns
+*How the owner decides.*
+
+<!-- (empty — the agent fills this as patterns emerge) -->
+
+## Emotional triggers
+*What the owner reacts to.*
+
+<!-- (empty) -->
+
+## Self-perception vs. actual behavior
+*Gaps between what the owner says and does. Handle with the most care.*
+
+<!-- (empty) -->
+
+## Strength patterns
+*Strengths that repeatedly show up.*
+
+<!-- (empty) -->
+
+## How the owner receives advice
+*What kind of feedback lands, what bounces off.*
+
+<!-- (empty) -->
+
+## Growth log
+*Dated changes over time.*
+
+<!-- (empty) -->

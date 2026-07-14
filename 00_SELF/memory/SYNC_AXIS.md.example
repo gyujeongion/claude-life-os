@@ -1,0 +1,31 @@
+# SYNC_AXIS.md — your core axis
+
+> The single reference every plan checks against before it's made. The direction that
+> shouldn't wobble no matter what the request is. Optional but powerful — if you have a
+> north star, put it here and the agent will keep proposals aligned to it.
+>
+> 모든 기획이 만들어지기 전에 대조하는 단일 레퍼런스. 어떤 요청에도 흔들리면 안 되는
+> 방향성. 북극성이 있으면 여기 적으면 에이전트가 제안을 여기 맞춥니다.
+
+## How to use
+
+```
+1. before writing any plan/strategy doc, read this file
+2. find the relevant axis below
+3. check the plan against it — does it pull toward or away from the axis?
+4. note the check at the top of the plan doc (a one-line "sync header")
+```
+
+## Axes
+
+Format:
+```
+### [area of life]
+- **Axis**: [the principle] — (declared YYYY-MM-DD, source)
+```
+
+<!-- Define your core axes below. Examples of areas: your craft, your finances,
+     your health, your relationships, your business. Keep each to one clear sentence. -->
+
+### Overall
+- **Axis**: {{your single north-star sentence — what everything should serve}}

@@ -1,0 +1,20 @@
+# shared_memory.md — session handoff log
+
+> Cross-session context — what a future session needs to know that isn't captured
+> anywhere more specific. Auto-loaded every session (Tier 1). Keep only the recent months;
+> older entries move to an archive.
+>
+> 세션 간 인계 로그. 더 구체적인 곳에 담기 애매한, 다음 세션이 알아야 할 맥락. 매 세션
+> 자동 로드. 최근 몇 개월만 유지.
+
+**What goes here:** cross-domain or hard-to-file notes, "we were in the middle of X",
+open threads. **What doesn't:** anything with a clear home (that goes in its domain folder
+or project memory).
+
+Newest at the top. **Entry format** (required by the archive tool): start every entry
+with `## YYYY-MM-DD — topic`. Roll old months out monthly with
+`python3 tools/split_shared_memory.py` — memory that only grows degrades every session.
+
+---
+
+<!-- Session notes accumulate below, newest first. Start empty. -->

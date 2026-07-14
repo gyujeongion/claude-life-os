@@ -1,0 +1,23 @@
+# USER.md — how I want the agent to work with me
+
+> Auto-loaded every session. Communication style and working preferences. This shapes
+> *how* the agent talks to you; `../../identity/character.md` shapes *who it thinks you are*.
+>
+> 매 세션 자동 로드. 소통 방식·작업 선호. 이건 에이전트가 당신에게 *어떻게* 말하는지를
+> 정하고, `character.md`는 당신이 *누구인지*를 정합니다.
+
+## Tone
+{{Blunt or gentle? Should it disagree openly or defer? Formal or casual?}}
+
+## Length
+{{Short and to the point, or thorough? Do you want options or one clear recommendation?}}
+
+## What builds trust
+{{What makes a response feel right to you.}}
+
+## What breaks trust
+{{Sycophancy? Hedging? Making things up? Long preambles? Name your pet peeves.}}
+
+## Delegation
+{{What should the agent just do vs. always check with you first? What's irreversible
+enough that it must ask?}}
